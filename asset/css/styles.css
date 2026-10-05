@@ -53,6 +53,7 @@ nav {
   height: 80px;
   padding: 11.5px;
   box-sizing: border-box;
+  box-shadow: 0 5px 5px black;
 }
 nav a {
   font-size: 50px;
@@ -134,6 +135,7 @@ footer li {
   border-radius: 50%;
   text-decoration: none;
   display: flex;
+  z-index: 5;
 }
 #button-top img {
   margin: auto;
