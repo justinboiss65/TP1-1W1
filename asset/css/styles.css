@@ -39,7 +39,8 @@ li {
   margin-left: 20px;
 }
 header {
-  width: 1144px;
+  width: 79.4444%;
+  max-width: 1144px;
   margin: auto;
   position: sticky;
   top: -600px;
@@ -50,24 +51,31 @@ nav {
   margin-left: -2.5%;
   text-align: center;
   border-radius: 40px;
-  height: 60px;
+  height: auto;
   padding: 11.5px;
   box-sizing: border-box;
   box-shadow: 0 5px 5px black;
+}
+nav div {
+  margin: auto;
+  width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 nav a {
   font-size: 35px;
   color: #009de0;
-  margin: 0 50px;
+  margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   font-weight: bold;
 }
 main {
-  width: 1144px;
+  width: 79.4444%;
+  max-width: 1144px;
   margin: auto;
 }
 section {
@@ -80,14 +88,19 @@ section p {
   text-indent: 20px;
 }
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
   background-color: white;
   border-radius: 20px 20px 0 0;
   padding: 20px;
   margin-top: 90px;
 }
-footer div {
+/* footer div {
   margin-left: 50%;
-}
+} */
 footer a {
   color: #009de0;
   font-size: 16px;
@@ -104,13 +117,24 @@ footer li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.fig-style {
+  min-width: 328.883px;
+  width: 50.6993%;
+  max-width: 580px;
+  max-height: 330px;
+  margin: auto;
 }
 .img-style {
-  width: 580px;
-  height: 330px;
+  width: 100%;
 }
 .section-text {
+  min-width: 328.883px;
   width: 45%;
+  margin: 10px 0;
+  margin: auto;
 }
 .section-left figcaption {
   text-align: right;
@@ -152,20 +176,26 @@ footer li {
 #header-img-left {
   display: flex;
   flex-direction: column;
+  width: 41.958%;
 }
 #logo-top {
-  width: 310px;
-  height: 137px;
+  width: 64.5833%;
+  max-width: 310px;
+  height: 28.5416%;
+  max-height: 137px;
   margin-bottom: auto;
 }
 #img-concorde {
-  width: 480px;
-  height: 320px;
+  width: 100%;
+  max-width: 480px;
+  max-height: 320px;
 }
 #img-bus {
-  width: 640px;
-  height: 480px;
-  margin-left: auto;
+  width: 55.944%;
+  max-width: 640px;
+  height: 100%;
+  max-height: 480px;
+  margin-left: 2.0979%;
 }
 #logo-bottom {
   width: 150px;
