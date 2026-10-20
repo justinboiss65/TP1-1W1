@@ -98,9 +98,6 @@ footer {
   padding: 20px;
   margin-top: 90px;
 }
-/* footer div {
-  margin-left: 50%;
-} */
 footer a {
   color: #009de0;
   font-size: 16px;
@@ -121,29 +118,34 @@ footer li {
   gap: 30px;
 }
 .fig-style {
-  min-width: 328.883px;
+  min-width: 329px;
   width: 50.6993%;
   max-width: 580px;
   max-height: 330px;
-  margin: auto;
 }
 .img-style {
   width: 100%;
 }
 .section-text {
-  min-width: 328.883px;
+  min-width: 329px;
   width: 45%;
   margin: 10px 0;
-  margin: auto;
 }
 .section-left figcaption {
   text-align: right;
+}
+.section-left .section-text,
+.section-left .fig-style {
+  margin-right: auto;
 }
 .section-right h2,
 .section-right p {
   text-align: right;
 }
-
+.section-right .section-text,
+.section-right .fig-style {
+  margin-left: auto;
+}
 #bg {
   width: 103.125%;
   height: 103.125%;
